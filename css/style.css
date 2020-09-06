@@ -22,13 +22,41 @@
 }
 
 .header-sash {
-  color: rgb(115, 221, 115);
+  color: green;
   text-align: center !important;
 }
 
 .header-icon {
   margin-top: 30px;
   padding-right: 50px;
+  position: relative;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.btn {
+  border: 1px solid green;
+  padding: 5px;
+  margin-left: 8px;
+  border-radius: 50px 50px 50px 50px;
+  outline: none;
+  background: green;
+  height: 30px;
+  width: 150px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.email-input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 50px 50px 50px 50px;
+  outline: none;
+  height: 20px;
+  width:200px;
+  font-size: 10px;
 }
 
 .modal-div {
@@ -56,12 +84,12 @@
 
 .cards {
   display: flex;
-  /* margin: 15% auto; */
+  border: 1px solid #ddd;
+  border-radius: 4px;
   padding: 10px;
   background: #fff;
   width: 150px;
   height: 200px;
-  /* line-height: 2.5; */
 }
 
 .section-one {
@@ -73,13 +101,16 @@
 }
 
 .section-one-left {
-  width: 40%;
+  width: 45%;
   padding-left: 50px;
+  margin-left: 150px;
+  height: 500px;
+  margin-top: 100px;
 }
 
 .section-one-left > h2 {
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .section-one-left > p {
@@ -88,12 +119,11 @@
 
 .section-one-right {
   margin-right: 0;
-  width: 60%;
+  width: 55%;
 }
 
 .hero-img {
-  /* margin-right:;  */
-  width: 700px;
+  width: 650px;
   height: 500px;
 }
 
