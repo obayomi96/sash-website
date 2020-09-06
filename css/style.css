@@ -1,0 +1,151 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.inner-header {
+  position: relative;
+  padding-top: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.header-sash {
+  color: rgb(115, 221, 115);
+  text-align: center !important;
+}
+
+.header-icon {
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+.modal-div {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  margin: 15% auto;
+  padding: 10px;
+  background: #fff;
+  width: 150px;
+  height: 200px;
+  line-height: 2.5;
+}
+
+.cards {
+  display: flex;
+  /* margin: 15% auto; */
+  padding: 10px;
+  background: #fff;
+  width: 150px;
+  height: 200px;
+  /* line-height: 2.5; */
+}
+
+.section-one {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-one-left {
+  width: 40%;
+  padding-left: 50px;
+}
+
+.section-one-left > h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.section-one-left > p {
+  font-size: 20px;
+}
+
+.section-one-right {
+  margin-right: 0;
+  width: 60%;
+}
+
+.hero-img {
+  /* margin-right:;  */
+  width: 700px;
+  height: 500px;
+}
+
+.section-two {
+  background: #ddd;
+  padding: 20px;
+}
+
+.section-two-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.sec-one-cards-div {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cards-1 {
+  margin: 5px;
+}
+
+.sec-one-info {
+  width: 50%;
+}
+
+.section-two-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-two-2 > .cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 80%;
+  margin: 20px auto; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-div {
+  width: 100%;
+  height: 300px;
+  background: #000;
+}
