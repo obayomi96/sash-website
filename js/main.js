@@ -2,8 +2,10 @@ const modalbtn = document.querySelector('.btn-submit');
 const modalbtn2 = document.querySelector('.btn-submit2');
 const closeModalbtn = document.querySelector('.close-modal');
 const modalDiv = document.querySelector('.modal-div');
+// const emailFieldVal = document.querySelector('.email-input').value;
 // const modalCard = document.querySelector('.modal-card');
 // const emailInput = document.querySelector('.email-input');
+
 
 let showModal = false;
 
@@ -23,6 +25,6 @@ modalbtn.addEventListener('click', (e) => modalFunc(e));
 
 modalbtn2.addEventListener('click', (e) => modalFunc(e));
 
-closeModalbtn.addEventListener('click', (e) => {
+closeModalbtn.addEventListener('click', () => {
   modalDiv.style.display = 'none';
 });

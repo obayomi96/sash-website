@@ -11,10 +11,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Circular;
 }
 
 body { 
+  font-family: Circular;
   width: 100%;
 } 
 
@@ -356,19 +356,13 @@ form {
   
   .cards {
     margin: 10px auto;
+    height: ;
     width: 60%;
   }
 } 
 
-/* TABLET STYLES STARTS HERE */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-
-} */
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .inner-header {
     display: flex;
     align-items: center;
@@ -487,3 +481,12 @@ form {
   }
 
 }
+
+/* TABLET STYLES STARTS HERE */
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background: red;
+  }
+  
+} */
