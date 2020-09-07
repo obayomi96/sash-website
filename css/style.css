@@ -356,8 +356,8 @@ form {
   
   .cards {
     margin: 10px auto;
-    height: ;
-    width: 60%;
+    height: 280px;
+    width: 70%;
   }
 } 
 
@@ -371,6 +371,12 @@ form {
   .header-icon {
     margin-top: 10px;
     padding-right: 30px;
+  }
+
+  .cards {
+    margin: 10px auto;
+    height: 280px;
+    width: 70%;
   }
 
   .section-one-inner {
@@ -481,12 +487,3 @@ form {
   }
 
 }
-
-/* TABLET STYLES STARTS HERE */
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background: red;
-  }
-  
-} */
