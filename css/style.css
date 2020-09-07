@@ -82,23 +82,27 @@ form {
   line-height: 2.5;
 }
 
+.section-one {
+  width: 100%;
+}
+
 .cards {
   display: flex;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 10px;
   background: #fff;
-  width: 150px;
-  height: 200px;
+  width: 180px;
+  height: 250px;
+  box-shadow: 10px -11px 11px -14px rgba(0,0,0,0.75);
 }
 
-.section-one {
-  /* position: relative; */
-  /* margin-top: 5px; */
-  width: 100%;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
+.first-c {
+  margin: 40px 40px 0 65px;
+}
+
+.second-c {
+  margin: 0 0 0 20px;
 }
 
 .section-one-inner {
@@ -106,7 +110,6 @@ form {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .section-one-left {
@@ -124,11 +127,11 @@ form {
 
 .section-one-left > p {
   font-size: 20px;
+  color: rgb(129, 126, 126);
 }
 
 .section-one-right {
   margin-right: 0;
-  /* margin-top: -50px; */
   width: 55%;
 }
 
@@ -138,39 +141,61 @@ form {
 }
 
 .section-two {
-  background: #ddd;
+  background: rgb(212, 211, 211);
   padding: 20px;
+}
+
+.section-two-inner {
+  /* width: 75%; */
+  margin: 0 auto;
 }
 
 .section-two-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
 }
 
-.sec-one-cards-div {
+.sec-two-cards-div {
   width: 50%;
+  margin-right: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
-.cards-1 {
-  margin: 5px;
-}
-
-.sec-one-info {
+.sec-two-info {
   width: 50%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sec-two-info > h2 {
+  /* letter-spacing: 1px; */
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.sec-two-info > p {
+  margin-left: 30px;
+  font-size: 18px;
+  color: rgb(129, 126, 126);
+}
+
+.sec-two-div {
+  text-align: center;
+  background: green;
+  height: 5px;
+  width: 40px;
 }
 
 .section-two-2 {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  margin: 20px auto;
+  width: 75%;
+  margin: 30px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -178,8 +203,6 @@ form {
 .section-two-2 > .cards-div {
   display: flex;
   flex-wrap: wrap;
-  /* width: 80%;
-  margin: 20px auto; */
   justify-content: space-between;
   align-items: center;
 }
