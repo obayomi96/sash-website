@@ -196,9 +196,15 @@ form {
 
 .cards {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  /* padding: 10px; */
   background: #fff;
   width: 180px;
   height: 250px;
@@ -206,6 +212,13 @@ form {
 }
 
 .first-c {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 5px;
   margin: 40px 40px 0 65px;
 }
 
