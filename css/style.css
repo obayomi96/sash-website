@@ -399,9 +399,21 @@ form {
   }
 
   .section-one-form-div > form {
+    display: flex;
     justify-content: center;
     width: 100%;
     margin: 20px auto;
+  }
+
+  .btn {
+    height: 27px;
+    width: 120px;
+    font-size: 8px;
+  }
+  
+  .email-input {
+    height: 16px;
+    width:180px;
   }
 
   .hero-img {
@@ -455,7 +467,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     width: 75%;
-    margin: 30px auto;
+    margin: 5px auto;
     justify-content: space-between;
     /* align-items: center; */
   }
@@ -466,37 +478,5 @@ form {
     justify-content: space-around;
     /* align-items: center; */
   }
-  
-/*   
-  .first-c {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    font-weight: normal;
-    line-height: 1.2;
-    padding: 5px;
-    margin: 40px 40px 0 65px;
-  }
 
-  .second-c {
-    margin: 0 0 0 20px;
-  }
-   */
-
-  /* .c-one {
-    margin: 0 0 0 20px;
-  } 
-
-  .c-two {
-    margin-top: 40px;
-  }
-  
-  .c-three {
-    margin-top: 80px;
-  }
-  
-  .c-four {
-    margin-top: 110px;
-  } */
 }
