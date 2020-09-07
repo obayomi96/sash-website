@@ -245,6 +245,8 @@ form {
   background: #000;
 }
 
+/* MOBILE STYLES STARTS HERE */
+
 @media (max-width: 480px) { 
   body { 
     width: 100% !important;
@@ -269,8 +271,6 @@ form {
 
   .section-one-left > h2 {
     text-align: center;
-    /* font-weight: 600;
-    font-size: 40px; */
   }
   
   .section-one-left > p {
@@ -340,18 +340,10 @@ form {
     margin: 10px auto;
     width: 60%;
   }
-
-  .first-c {
-    /* margin: 20px auto;
-    width: 60%;
-    padding: 5px; */
-    /* margin: 40px 40px 0 65px; */
-  }
-  
-  .second-c {
-    /* margin: 20px auto; */
-    /* width: 60%; */
-    /* margin: 0 0 0 20px; */
-  }
-
 } 
+
+/* TABLET STYLES STARTS HERE */
+
+@media only screen and (min-width: 600px) {
+  
+}
