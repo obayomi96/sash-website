@@ -121,3 +121,367 @@
     <script src="./js/main.js"></script>
   </body>
 </html>
+
+<!-- @-ms-viewport {
+  width: device-width;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.inner-header {
+  position: relative;
+  padding-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.header-sash {
+  color: green;
+  text-align: center !important;
+}
+
+.header-icon {
+  margin-top: 30px;
+  padding-right: 50px;
+  position: relative;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.btn {
+  border: 1px solid green;
+  padding: 5px;
+  margin-left: 8px;
+  border-radius: 50px 50px 50px 50px;
+  outline: none;
+  background: green;
+  height: 30px;
+  width: 150px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.email-input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 50px 50px 50px 50px;
+  outline: none;
+  height: 20px;
+  width:200px;
+  font-size: 10px;
+}
+
+.modal-div {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  margin: 15% auto;
+  padding: 10px;
+  background: #fff;
+  width: 150px;
+  height: 200px;
+  line-height: 2.5;
+}
+
+.section-one {
+  width: 100%;
+  height: auto;
+}
+
+
+.section-one-inner {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-one-left {
+  width: 45%;
+  padding-left: 50px;
+  margin-left: 150px;
+  height: 500px;
+  margin-top: 70px;
+}
+
+.section-one-left > h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.section-one-left > p {
+  font-size: 20px;
+  color: rgb(129, 126, 126);
+}
+
+.section-one-right {
+  margin-right: 0;
+  width: 55%;
+}
+
+.hero-img {
+  width: 650px;
+  height: 500px;
+}
+
+.section-two {
+  margin-top: -130px;
+  background: rgb(212, 211, 211);
+  padding: 20px;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 30% 25% 0 0;
+  border-top-right-radius: 720px 110px;
+  border-top-left-radius: 850px 140px;
+}
+
+.section-two-inner {
+  margin: 140px auto;
+}
+
+.section-two-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.sec-two-cards-div {
+  width: 50%;
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-two-info {
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sec-two-info > h2 {
+  /* letter-spacing: 1px; */
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.sec-two-info > p {
+  margin-left: 30px;
+  font-size: 16px;
+  color: rgb(129, 126, 126);
+}
+
+.sec-two-div {
+  text-align: center;
+  background: green;
+  height: 5px;
+  width: 40px;
+}
+
+.section-two-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 30px auto;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.section-two-2 > .cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* padding: 10px; */
+  background: #fff;
+  width: 180px;
+  height: 250px;
+  box-shadow: 10px -11px 11px -14px rgba(0,0,0,0.75);
+}
+
+.first-c {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 5px;
+  margin: 40px 40px 0 65px;
+}
+
+.second-c {
+  margin: 0 0 0 20px;
+}
+
+.c-two {
+  margin-top: -40px;
+}
+
+.c-three {
+  margin-top: -80px;
+}
+
+.c-four {
+  margin-top: -110px;
+}
+
+.footer-div {
+  width: 100%;
+  height: 300px;
+  background: #000;
+}
+
+/* MOBILE STYLES STARTS HERE */
+
+@media (max-width: 480px) { 
+  /* body { 
+    width: 100% !important;
+  }  */
+
+  .inner-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-icon {
+    margin-top: 10px;
+    padding-right: 30px;
+  }
+
+  .section-one-left {
+    width: 100%;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    height: auto;
+  }
+
+  .section-one-left > h2 {
+    text-align: center;
+  }
+  
+  .section-one-left > p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .section-one-right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .section-one-form-div > form {
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .section-two {
+    margin-top: -80px;
+  }
+
+  .section-two-1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .section-two-2 {
+    margin: 5px auto;
+  }
+  
+  .sec-two-cards-div {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .section-two-inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sec-two-info {
+    order: -1;
+    width: 100% !important;
+  }
+
+  .sec-two-info > h2 {
+    width: 100%;
+    margin: 5px auto;
+    font-weight: 500;
+    font-size: 23px;
+  }
+  
+  .sec-two-info > p {
+    margin: 5px auto;
+
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .cards {
+    margin: 10px auto;
+    width: 60%;
+  }
+} 
+
+/* TABLET STYLES STARTS HERE */
+
+@media only screen and (min-width: 600px) {
+
+} -->
+<!-- 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} -->

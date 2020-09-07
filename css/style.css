@@ -7,7 +7,12 @@
   padding: 0;
 }
 
-.header {
+body { 
+  width: 100%;
+} 
+
+/* @media  (max-width :768px) { */
+  .header {
   position: relative;
   width: 100%;
 }
@@ -92,12 +97,12 @@ form {
   margin: 0;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
 .section-one-left {
-  width: 45%;
+  width: 50%;
   padding-left: 50px;
   margin-left: 150px;
   height: 500px;
@@ -116,7 +121,7 @@ form {
 
 .section-one-right {
   margin-right: 0;
-  width: 55%;
+  width: 50%;
 }
 
 .hero-img {
@@ -245,11 +250,12 @@ form {
   background: #000;
 }
 
+/* } */
 /* MOBILE STYLES STARTS HERE */
 
-@media (max-width: 480px) { 
+@media only screen and (max-width: 600px) { 
   body { 
-    width: 100% !important;
+    width: 100%;
   } 
 
   .inner-header {
@@ -260,6 +266,14 @@ form {
   .header-icon {
     margin-top: 10px;
     padding-right: 30px;
+  }
+
+  .section-one-inner {
+    /* margin: 0;
+    width: 100%;
+    display: flex; */
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .section-one-left {
@@ -285,7 +299,7 @@ form {
 
   .section-one-form-div > form {
     justify-content: center;
-    width: 80%;
+    width: 95%;
     margin: 20px auto;
   }
 
@@ -345,5 +359,5 @@ form {
 /* TABLET STYLES STARTS HERE */
 
 @media only screen and (min-width: 600px) {
-  
+
 }
