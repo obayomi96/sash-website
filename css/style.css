@@ -84,6 +84,7 @@ form {
 
 .section-one {
   width: 100%;
+  height: auto;
 }
 
 
@@ -123,13 +124,17 @@ form {
 }
 
 .section-two {
+  margin-top: -130px;
   background: rgb(212, 211, 211);
   padding: 20px;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 30% 25% 0 0;
+  border-top-right-radius: 720px 110px;
+  border-top-left-radius: 850px 140px;
 }
 
 .section-two-inner {
-  /* width: 75%; */
-  margin: 0 auto;
+  margin: 140px auto;
 }
 
 .section-two-1 {
