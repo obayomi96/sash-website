@@ -269,13 +269,13 @@ form {
   .inner-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100% !important;
+    justify-content: space-between;
+    width: 55% !important;
   }
 
   .header-icon {
     margin-top: 10px;
-    padding-right: 30px;
+    padding-right: 15px;
   }
 
   .section-one-inner {
