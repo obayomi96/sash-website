@@ -269,6 +269,8 @@ form {
   .inner-header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100% !important;
   }
 
   .header-icon {
@@ -313,7 +315,7 @@ form {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     
   }
 
@@ -325,10 +327,8 @@ form {
   
   .email-input {
     height: 16px;
-    width:150px;
+    width: 150px;
   }
-
-
 
   .hero-img {
     width: 100%;
